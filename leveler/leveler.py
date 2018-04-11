@@ -22,7 +22,8 @@ except:
 try:
     from PIL import Image, ImageDraw, ImageFont, ImageColor, ImageOps, ImageFilter
 except:
-    raise RuntimeError("Can't load pillow. Do 'pip3 install pillow'.")
+    pass
+    # raise RuntimeError("Can't load pillow. Do 'pip3 install pillow'.")
 import time
 
 # fonts
